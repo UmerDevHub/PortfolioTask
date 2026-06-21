@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umer Nisar | Portfolio - Mobile, Web & Machine Learning Engineer</title>
+    <meta name="description" content="Portfolio of Umer Nisar (UmerDevHub), 6th Semester Software Engineering student. Showcasing Flutter mobile apps, Laravel web projects, and Machine Learning models.">
+    <meta name="keywords" content="Umer Nisar, UmerDevHub, Portfolio, Flutter Developer, Laravel Developer, Machine Learning, COMSATS, Software Engineer">
+    <meta name="author" content="Umer Nisar">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+
+    <header id="header" class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-code">&lt;</span>Umer<span class="logo-accent">DevHub</span><span class="logo-code"> /&gt;</span>
+            </a>
+            <nav class="nav-links" id="nav-menu">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobile-toggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="hero-greeting">Hi, my name is</span>
+                    <h1 class="hero-title">Umer Nisar</h1>
+                    <h2 class="hero-subtitle">Software Engineer &amp; Mobile App Developer</h2>
+                    <p class="hero-desc">
+                        A passionate 6th Semester Software Engineering student and full-stack developer who designs and builds high-performance mobile apps, robust Laravel systems, and intelligent machine learning predictors. Deployed to Google Play, Railway, and Vercel.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-down btn-icon"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/profile.jpg" alt="Umer Nisar Profile" class="profile-image" onload="this.style.display='block'; this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="image-placeholder profile-placeholder">
+                        <div class="placeholder-content">
+                            <i class="fa-regular fa-user placeholder-icon"></i>
+                            <span class="placeholder-title">profile.jpg</span>
+                            <span class="placeholder-size">Recommended: Square (400x400 px)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text-content">
+                        <p class="about-intro">
+                            I am a Software Engineering student (expected graduation 2027) currently in my 6th semester at COMSATS. I thrive on translating complex problems into clean, functional, and beautiful digital products.
+                        </p>
+                        <p class="about-body">
+                            My journey began with exploring full-stack web solutions and quickly expanded into cross-platform mobile development (Flutter) and data science/ML. Whether it's crafting offline-first Flutter apps with MVVM architecture, developing inventory-rich Laravel e-commerce systems, or tuning ML classifier scripts for prediction models, I focus on performance, aesthetics, and user-centric features.
+                        </p>
+                        <div class="about-details-grid">
+                            <div class="about-detail-card">
+                                <i class="fa-solid fa-graduation-cap detail-card-icon"></i>
+                                <h3>Education</h3>
+                                <p>BS Software Engineering</p>
+                                <span>COMSATS University (2023 - 2027)</span>
+                            </div>
+                            <div class="about-detail-card">
+                                <i class="fa-solid fa-briefcase detail-card-icon"></i>
+                                <h3>Interest</h3>
+                                <p>Open to Internships</p>
+                                <span>Mobile & Full-Stack Web Dev</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-status-card glass">
+                        <h3 class="status-title">Current Stats</h3>
+                        <ul class="status-list">
+                            <li>
+                                <span class="status-label"><i class="fa-brands fa-github text-accent"></i> Public Repos:</span>
+                                <span class="status-val">20+</span>
+                            </li>
+                            <li>
+                                <span class="status-label"><i class="fa-solid fa-mobile-screen-button text-accent"></i> Apps Published:</span>
+                                <span class="status-val">1 (Play Store)</span>
+                            </li>
+                            <li>
+                                <span class="status-label"><i class="fa-solid fa-globe text-accent"></i> Web Deployments:</span>
+                                <span class="status-val">5+ Live Demos</span>
+                            </li>
+                            <li>
+                                <span class="status-label"><i class="fa-solid fa-circle-check text-accent"></i> Focus:</span>
+                                <span class="status-val">Clean MVVM, UX</span>
+                            </li>
+                        </ul>
+                        <div class="status-quote">
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p>Striving to write code that is clean, secure, and performant.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What I work with</span>
+                    <h2 class="section-title">My Tech Stack</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category-card glass">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-mobile-screen skill-cat-icon"></i>
+                            <h3>Mobile Dev</h3>
+                        </div>
+                        <div class="skills-badges">
+                            <span class="skill-badge">Flutter</span>
+                            <span class="skill-badge">Dart</span>
+                            <span class="skill-badge">Provider</span>
+                            <span class="skill-badge">SQLite (sqflite)</span>
+                            <span class="skill-badge">Firebase Auth/Firestore</span>
+                            <span class="skill-badge">MVVM Architecture</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category-card glass">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-code skill-cat-icon"></i>
+                            <h3>Web & Backend</h3>
+                        </div>
+                        <div class="skills-badges">
+                            <span class="skill-badge">Laravel (PHP)</span>
+                            <span class="skill-badge">MySQL</span>
+                            <span class="skill-badge">HTML5 / CSS3</span>
+                            <span class="skill-badge">Vanilla JavaScript</span>
+                            <span class="skill-badge">Bootstrap & Tailwind</span>
+                            <span class="skill-badge">Blade Templates</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card glass">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-brain skill-cat-icon"></i>
+                            <h3>AI / ML & Data</h3>
+                        </div>
+                        <div class="skills-badges">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Scikit-Learn</span>
+                            <span class="skill-badge">NLP (TF-IDF)</span>
+                            <span class="skill-badge">Streamlit Dashboards</span>
+                            <span class="skill-badge">Data Analysis</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card glass">
+                        <div class="skill-category-header">
+                            <i class="fa-solid fa-screwdriver-wrench skill-cat-icon"></i>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="skills-badges">
+                            <span class="skill-badge">Git & GitHub</span>
+                            <span class="skill-badge">Vercel</span>
+                            <span class="skill-badge">Railway</span>
+                            <span class="skill-badge">Google Play Console</span>
+                            <span class="skill-badge">Postman</span>
+                            <span class="skill-badge">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Showcase of work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+                
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile (Flutter)</button>
+                    <button class="filter-btn" data-filter="web">Web & Backend</button>
+                    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                </div>
+
+                <div class="projects-grid" id="projects-container">
+                    
+                    <div class="project-card glass" data-category="mobile">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-pocket-journal.jpg" alt="Pocket Journal App" class="project-image" onload="this.style.display='block'; this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder project-img-placeholder">
+                                <div class="placeholder-content">
+                                    <i class="fa-regular fa-image placeholder-icon"></i>
+                                    <span class="placeholder-title">project-pocket-journal.jpg</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Mobile Application</span>
+                            <h3 class="project-title">Pocket Journal App</h3>
+                            <p class="project-desc">
+                                An offline-first digital journal & mood tracker featuring streaks, statistics dashboards, writing prompts, and local SQLite security. MVVM clean architecture. Deployed on Google Play Store.
+                            </p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>sqflite</span>
+                                <span>Provider</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/UmerDevHub/pocket-journal-app" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.umer.pocketjournal.app2026&hl=en" target="_blank" class="project-link link-primary"><i class="fa-brands fa-google-play"></i> Play Store</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass" data-category="mobile">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-carpool.png" alt="Carpool Ride-Sharing" class="project-image" onload="this.style.display='block'; this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder project-img-placeholder">
+                                <div class="placeholder-content">
+                                    <i class="fa-regular fa-image placeholder-icon"></i>
+                                    <span class="placeholder-title">project-carpool.png</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Mobile Application</span>
+                            <h3 class="project-title">Carpool Ride-Sharing</h3>
+                            <p class="project-desc">
+                                Real-time ride-sharing application. Users can authenticate, create, search, and join rides with Google Maps integration and instant database updates.
+                            </p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>Google Maps API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/UmerDevHub/Carpool" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass" data-category="mobile">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-ashiyana.png" alt="Ashiyana e Jannat" class="project-image" onload="this.style.display='block'; this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder project-img-placeholder">
+                                <div class="placeholder-content">
+                                    <i class="fa-regular fa-image placeholder-icon"></i>
+                                    <span class="placeholder-title">project-ashiyana.png</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Mobile Application</span>
+                            <h3 class="project-title">Ashiyana e Jannat</h3>
+                            <p class="project-desc">
+                                Niche Islamic habit tracker and journal app supporting prayers, Quran logs, daily habit streaks, and visual progress analytics with optimized fast startup.
+                            </p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>SQLite</span>
+                                <span>Lazy IndexedStack</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/UmerDevHub/ashiyana_e_jannat" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass" data-category="web">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-watchify.png" alt="Watchify E-Commerce Store" class="project-image" onload="this.style.display='block'; this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder project-img-placeholder">
+                                <div class="placeholder-content">
+                                    <i class="fa-regular fa-image placeholder-icon"></i>
+                                    <span class="placeholder-title">project-watchify.png</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Full-Stack Web</span>
+                            <h3 class="project-title">Watchify E-Commerce Store</h3>
+                            <p class="project-desc">
+                                Complete watch e-commerce store with secure user authentication, shopping cart, interactive checkout, and a comprehensive admin panel for inventory and order management.
+                            </p>
+                            <div class="project-tags">
+                                <span>Laravel</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/UmerDevHub/watch-ecommerce-website" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                                <a href="https://watchifystore-production.up.railway.app/home" target="_blank" class="project-link link-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass" data-category="web">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-skyflow.png" alt="SkyFlow Weather App" class="project-image" onload="this.style.display='block'; this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder project-img-placeholder">
+                                <div class="placeholder-content">
+                                    <i class="fa-regular fa-image placeholder-icon"></i>
+                                    <span class="placeholder-title">project-skyflow.png</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Frontend Web</span>
+                            <h3 class="project-title">SkyFlow Weather App</h3>
+                            <p class="project-desc">
+                                Modern weather portal featuring automatic user geolocation, city search, multi-day forecasting, sleek glassmorphic aesthetics, and a secure serverless API proxy.
+                            </p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Vercel Proxy</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/UmerDevHub/Weather-Frontend" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                                <a href="https://weather-frontend-psi-fawn.vercel.app/" target="_blank" class="project-link link-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass" data-category="ml">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-fake-news.png" alt="Fake News Predictor" class="project-image" onload="this.style.display='block'; this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder project-img-placeholder">
+                                <div class="placeholder-content">
+                                    <i class="fa-regular fa-image placeholder-icon"></i>
+                                    <span class="placeholder-title">project-fake-news.png</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Machine Learning</span>
+                            <h3 class="project-title">Fake News Predictor</h3>
+                            <p class="project-desc">
+                                An NLP-driven web dashboard that predicts whether a news article is real or fake using TF-IDF feature extraction, comparing SVM, Naive Bayes, and Logistic Regression pipelines.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>scikit-learn</span>
+                                <span>NLP</span>
+                                <span>Streamlit</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/UmerDevHub/Fake-news-predictor" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass" data-category="ml">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-heart-disease.png" alt="Heart Disease Predictor" class="project-image" onload="this.style.display='block'; this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder project-img-placeholder">
+                                <div class="placeholder-content">
+                                    <i class="fa-regular fa-image placeholder-icon"></i>
+                                    <span class="placeholder-title">project-heart-disease.png</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Machine Learning</span>
+                            <h3 class="project-title">Heart Disease Predictor</h3>
+                            <p class="project-desc">
+                                Medical diagnostic model analyzing clinical features to predict heart disease risk. Compares six ML algorithms (with Random Forest achieving 96.6% accuracy) on a Streamlit dashboard.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Scikit-Learn</span>
+                                <span>Streamlit</span>
+                                <span>Data Analysis</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/UmerDevHub/heart-disease-predictor" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                                <a href="https://heartsdisease-predictor.streamlit.app/" target="_blank" class="project-link link-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get in touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's start a conversation</h3>
+                        <p class="contact-info-desc">
+                            I'm currently seeking internships, freelance roles, or collaborative open-source opportunities. Feel free to reach out via the form, or drop me an email directly!
+                        </p>
+                        <div class="contact-methods">
+                            <div class="contact-method-item">
+                                <i class="fa-solid fa-envelope contact-method-icon"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:umernisar053@gmail.com">umernisar053@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-method-item">
+                                <i class="fa-brands fa-linkedin-in contact-method-icon"></i>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <a href="https://www.linkedin.com/in/umer-nisar-699a39352/" target="_blank">linkedin.com/in/umer-nisar-699a39352</a>
+                                </div>
+                            </div>
+                            <div class="contact-method-item">
+                                <i class="fa-brands fa-github contact-method-icon"></i>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <a href="https://github.com/UmerDevHub" target="_blank">github.com/UmerDevHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form glass" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Collaboration">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Hi Umer, I'd love to collaborate on a new project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                            Send Message <i class="fa-regular fa-paper-plane btn-icon"></i>
+                        </button>
+                        <div class="form-alert" id="form-alert"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Umer Nisar. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/UmerDevHub" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/umer-nisar-699a39352/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:umernisar053@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
